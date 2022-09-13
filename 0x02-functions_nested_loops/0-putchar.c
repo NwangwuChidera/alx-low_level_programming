@@ -4,8 +4,17 @@
  *
  *Return: 0 Always
 */
-int _putchar(char c)
+int main(void)
 {
-	gets("_putchar %c\n", c);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
 	return (0);
 }

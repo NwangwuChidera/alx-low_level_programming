@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - prints the word _putchar
  *
@@ -11,10 +12,9 @@ int main(void)
 
 	while (s[i] != '\0')
 	{
-		_putchar(s[i])
+		_putchar(s[i]);
 		i++;
 	}
 	_putchar(10);
-
 	return (0);
 }

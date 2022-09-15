@@ -3,20 +3,14 @@
 /**
  * _isupper - Entry point
  * main - prints a function that checks uppercase
- * @c: the integer value it receives
+ * @c: the ASCII value
  * Return: 1 if true. 0 if false
  */
 int _isupper(int c)
 {
-int i = 'A';
-
-for (i = 'A'; i <= 'Z'; i++)
-{
-/* refer int c*/
-if (c == i)
+if (c >= 65 && c <= 90)
 {
 return (1);
-}
 }
 return (0);
 }

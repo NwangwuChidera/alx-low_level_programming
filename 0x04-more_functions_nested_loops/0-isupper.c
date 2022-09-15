@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _isupper - Entry point
- * main - prints a function that checks uppercase
- * @c: the ASCII value
- * Return: 1 if true. 0 if false
- */
+* _isupper - this function checks for uppercase ASCII characters
+* @c: This is an ASCII character
+* This coding shii dey sweet my belle
+* Return: 1 if uppercase, else 0
+*/
 int _isupper(int c)
 {
 if (c >= 65 && c <= 90)

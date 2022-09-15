@@ -3,7 +3,7 @@
 /**
 * _isupper - this function checks for uppercase ASCII characters
 * @c: This is an ASCII character
-* This coding shii dey sweet my belle
+
 * Return: 1 if uppercase, else 0
 */
 int _isupper(int c)

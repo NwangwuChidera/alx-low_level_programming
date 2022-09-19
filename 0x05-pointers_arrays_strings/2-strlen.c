@@ -9,6 +9,7 @@ int _strlen(char *s)
 	char *s;
 	int len;
 
-	len = _strlen(str);
-	echo strlen("*s");
+	len = _strlen(*s);
+	putchar("*s");
+	return (0);
 }

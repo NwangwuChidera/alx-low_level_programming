@@ -1,19 +1,20 @@
 #include "main.h"
+#include <stdlib.h>
+
 /**
- * *malloc_checked - Write a function that allocates memory using malloc
- * @b: integer allocated to the memory
- * Return: Nothing
+ * malloc_checked - allocates memory using malloc
+ *
+ * @b: the number to allocate memory for
+ *
+ * Return: pointer to the allocated memory
  */
+
 void *malloc_checked(unsigned int b)
 {
-	int n;
-	int i;
+	unsigned int *i;
 
-	*b = malloc_checked(sizeof(int) * 98);
-	for (i = 0; i < n; i++)
-	{
-		b[i] = i + 1;
-	}
-	return (void);
+	i = malloc(b);
+	if (i == NULL)
+		exit(98);
+	return (i);
 }
-
